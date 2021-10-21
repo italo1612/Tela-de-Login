@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+:root{
+
+    --cor1 : #F6F4F3;
+    --cor2 : #276FBF;
+    --cor3 : #F72C25;
+
+}
+
+.cabecalho{
+   
+    background: var(--cor1);
+    border-radius: 0 0 5px 5px;
+    
+
+}
+#form-login{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 4px 1px #00000021;
+    border-radius: 8px;
+    
+    
+
+}
+#fundo{
+  background-color: var(--cor2);
+}
+.cad{
+    font-size: 12px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+nav > a{
+    color: white;
+    background-color: #008000;
+    border: solid 1px #008000 ;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+nav > a:hover{
+    color: white;
+}
+.voltar{
+    background-color: var(--cor3);
+    border: solid 1px var(--cor3);
+}
