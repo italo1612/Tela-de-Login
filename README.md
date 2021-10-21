@@ -1,3 +1,3 @@
 # Tela-de-Login
-Projeto tela de login
-Neste projeto utilizei bootstrap.
+
+Neste projeto utilizei bootstrap para criação da tela login.
